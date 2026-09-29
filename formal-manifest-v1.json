@@ -1,0 +1,122 @@
+{
+  "analysis_implementation": {
+    "budget_ir.acurank_prior": {
+      "path": "/root/rivermind-data/label-free-allocation-20260928-Qtizs3/formal-prep-v3/src/budget_ir/acurank_prior.py",
+      "sha256": "d63f7fd8259fc61316299eff424e9acb0e8b38973c66c9ef7260f8c21d6a6fa4"
+    },
+    "budget_ir.allocator": {
+      "path": "/root/rivermind-data/label-free-allocation-20260928-Qtizs3/formal-prep-v3/src/budget_ir/allocator.py",
+      "sha256": "d14a6aed809d945716149594376d5a932ec7f7b1911ff20bef227e7632b95bb0"
+    },
+    "budget_ir.calibration_policy": {
+      "path": "/root/rivermind-data/label-free-allocation-20260928-Qtizs3/formal-prep-v3/src/budget_ir/calibration_policy.py",
+      "sha256": "9c591e84d35bc44f0bf39b6a4cb3d539c681fc59fdb8dc0c300ad14d49507d62"
+    },
+    "budget_ir.label_free_allocation": {
+      "path": "/root/rivermind-data/label-free-allocation-20260928-Qtizs3/formal-prep-v3/src/budget_ir/label_free_allocation.py",
+      "sha256": "080bef88ec606f30e5319fd25a102a2375f60c571aa55e3908dec38a030e37d0"
+    },
+    "budget_ir.predictor_oof_policy": {
+      "path": "/root/rivermind-data/label-free-allocation-20260928-Qtizs3/formal-prep-v3/src/budget_ir/predictor_oof_policy.py",
+      "sha256": "82230aae514e6f2b183e8a75fbc743f002478c1da0d69dfabf079446749ed658"
+    },
+    "scripts.audit_calibration_judgment_coverage": {
+      "path": "/root/rivermind-data/label-free-allocation-20260928-Qtizs3/formal-prep-v3/scripts/audit_calibration_judgment_coverage.py",
+      "sha256": "aee77f40a9bf61e9f9375fdda55b19710bf3ee962dc565fdf43b02373d6f2515"
+    },
+    "scripts.formal_descriptive_analysis": {
+      "path": "/root/rivermind-data/label-free-allocation-20260928-Qtizs3/formal-prep-v3/scripts/formal_descriptive_analysis.py",
+      "sha256": "0f740facd9759d315634a0dab31f4327b70883cb24c5bc65508e00c45dbc93c2"
+    },
+    "scripts.formal_mechanism_analysis": {
+      "path": "/root/rivermind-data/label-free-allocation-20260928-Qtizs3/formal-prep-v3/scripts/formal_mechanism_analysis.py",
+      "sha256": "5b6fd19d68a1cadb7b9ed301eaa2363957d0ad2f7ea1c1cacc2342bad96ad002"
+    }
+  },
+  "analysis_runtime": {
+    "modules": {
+      "math": {
+        "file_count": 1,
+        "path": "/opt/conda/lib/python3.10/lib-dynload/math.cpython-310-x86_64-linux-gnu.so",
+        "source_binary_tree_sha256": "3ed4a4850838c5b92158d90688fb3d0604041f1927dae26b612ef720f700576e",
+        "version": "not_exposed"
+      },
+      "numpy": {
+        "file_count": 510,
+        "path": "/root/rivermind-data/workload_budgeted_chinese_reranking/.venv/lib/python3.10/site-packages/numpy/__init__.py",
+        "source_binary_tree_sha256": "e2f3b6907e6e87734b3b0360bf130d73c12040b3f883a2d6cebb4786011e8e0a",
+        "version": "2.2.6"
+      },
+      "pytrec_eval": {
+        "file_count": 1,
+        "path": "/root/rivermind-data/paper-pair-audit-20260927-f8enwc/pytrec_pkg/pytrec_eval/__init__.py",
+        "source_binary_tree_sha256": "0fbe4a5a0adf02df06a3f9e3fb4567b08cb12e004d564ed29948e2f7f0182a52",
+        "version": "0.5.10"
+      },
+      "pytrec_eval_ext": {
+        "file_count": 1,
+        "path": "/root/rivermind-data/paper-pair-audit-20260927-f8enwc/pytrec_pkg/pytrec_eval_ext.cpython-310-x86_64-linux-gnu.so",
+        "source_binary_tree_sha256": "5b291b7366ccb373a56e68826498ca23c999449893a1aa9b83254fdeb19c7eab",
+        "version": "not_exposed"
+      },
+      "random": {
+        "file_count": 1,
+        "path": "/opt/conda/lib/python3.10/random.py",
+        "source_binary_tree_sha256": "62851608372f7aefa1f287451c323418546965c41f1a0e93edafa9739ff2e0bc",
+        "version": "not_exposed"
+      },
+      "scipy": {
+        "file_count": 1027,
+        "path": "/root/rivermind-data/workload_budgeted_chinese_reranking/.venv/lib/python3.10/site-packages/scipy/__init__.py",
+        "source_binary_tree_sha256": "1ad70eeb9dd406ef2e91f915140ef8d67a9e911cec3cf382d66f92e2bcc1ac6a",
+        "version": "1.15.3"
+      }
+    },
+    "python_executable": {
+      "path": "/opt/conda/bin/python3.10",
+      "sha256": "d821d6b6551dc13d441ec5b2a1c404ed36696e49947efe390312eee8302846bc"
+    },
+    "python_version": "3.10.20"
+  },
+  "deviation_disclosure": "Before this final release, qrels.dev.tsv was read under user authorization for format/coverage/hash verification; no effectiveness metric or candidate utility was computed from it. This is disclosed as a sequencing deviation, not concealed.",
+  "formal_release_authorized": true,
+  "freeze_sha256": "ace766cd01849a03370ab82876067f0bb3c289404b10938af15fb80951d23c75",
+  "gpu_required": false,
+  "independent_audit_script_sha256": "22a05a5044fcebf2bda2ca82ecb52de028839f2ea96cae492e2ed4bf13701a1c",
+  "input_release_receipts": {
+    "allocations": "b25e771098872ad658e3b8f932645583f3e43715bf84bf6964c1e9288d6e7ee64",
+    "candidates": "853324d209875d42133b844aadee5154f62bbc7f1a6f6c956e60ba51cdc18d1f",
+    "ce_scores": "0d4f154a601be5832c7aa9986dc031136bf28e5e5332cf4ef61e0e6114728f089",
+    "protocol": "ace766cd01849a03370ab82876067f0bb3c289404b10938af15fb80951d23c75"
+  },
+  "mode": "formal",
+  "output_path": "/root/rivermind-data/label-free-allocation-20260928-Qtizs3/formal-evaluation-v1-20260929/output/evaluation.json",
+  "paths": {
+    "allocations": "/root/rivermind-data/label-free-allocation-20260928-Qtizs3/formal-allocation-v1-20260929/production/allocations.jsonl",
+    "candidates": "/root/rivermind-data/label-free-allocation-20260928-Qtizs3/formal-rrf-v1-20260928/rrf_formal.tsv",
+    "ce_scores": "/root/rivermind-data/label-free-allocation-20260928-Qtizs3/formal-ce-v1-20260928/formal_ce_scores.tsv",
+    "mean_predictions": "/root/rivermind-data/label-free-allocation-20260928-Qtizs3/formal-allocation-v1-20260929/production/mean_predictions.tsv",
+    "qrels": "/root/rivermind-data/label-free-allocation-20260928-Qtizs3/formal-evaluation-v1-20260929/input/qrels.dev.tsv",
+    "queries": "/root/rivermind-data/bm25_main_10722d38/artifacts/splits/dev_queries.tsv"
+  },
+  "project_root": "/root/rivermind-data/label-free-allocation-20260928-Qtizs3/formal-prep-v3",
+  "qrels_identity": {
+    "declared_source": "https://huggingface.co/datasets/THUIR/T2Ranking/resolve/main/data/qrels.dev.tsv",
+    "observed_user_authorized_structural_check": "2026-09-29T12:52:58Z",
+    "sha256": "a0356bd3c6d72c532ca17a4d88d7765554857f321346cf0f9cb4ad480738b25a",
+    "source_manifest": "/root/rivermind-data/label-free-allocation-20260928-Qtizs3/pregeneration-evidence-v1/bm25_main_10722d38/artifacts/manifests/data_manifest.json"
+  },
+  "schema": "formal-evaluation-manifest-v1",
+  "selected_reference": "retrieval_uncertainty",
+  "sha256": {
+    "allocations": "dfc93abf50c26e872ab8e4f179eab0598bde026eb6111f87b0e31368620606de",
+    "candidates": "c6f92d2868c448e6eb731bfd7eca00b93758aafee5f1a6f5dbe82941d408dc28",
+    "ce_scores": "2968b2d55cc20d7d12e1ade5b34b63b36bc6ad6d8592c0668ed3588e155f4f21",
+    "mean_predictions": "05103a0ccb108d98aaf82c188acea93cc47671c7dcf7210c691286b0fc3c5aa0",
+    "project_metrics": "8de229c15f022552d9d974e5b4876f1b7c611e4bee4b31ba9dd894cec3222520",
+    "project_rerank": "5caa1661687b1172c115aa65cf5b552debd277cfe995b296c11a16f7486efdda",
+    "qrels": "a0356bd3c6d72c532ca17a4d88d7765554857f321346cf0f9cb4ad480738b25a",
+    "queries": "a64aa9b2605da7ff0d3c20cf2a037c247d2bb29217c1588ef6de594a76091370"
+  },
+  "supplementary_analysis": "frozen_v1"
+}
